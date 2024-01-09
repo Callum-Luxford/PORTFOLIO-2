@@ -385,8 +385,12 @@ footer {
     .portfolio {
         width: 100%;
     }
+
 }
 
 @media (max-width: 480px) {
-    .portfolio {}
+    .project-wrapper {
+        width: 20rem;
+        height: 12rem;
+    }
 }
