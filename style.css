@@ -221,6 +221,7 @@ footer,
 .contact-btn:hover,
 .download-btn {
     background-color: var(--btn-bg-color);
+    color: white;
 }
 
 .contact-btn:hover {
@@ -275,15 +276,19 @@ footer,
     justify-content: center;
 }
 
+.portfolio .wrapper {
+    box-shadow: 3px 3px 15px rgb(182, 182, 182);
+}
+
 .project-1 {
-    background-image: url(./Assets/pexels-dominika-roseclay-1036848.jpg);
+    background-image: url(./Assets/Screenshot\ 2024-01-09\ 200127.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .project-2 {
-    background-image: url(./Assets/pexels-ivan-samkov-4164651.jpg);
+    background-image: url(./Assets/LoginLandingCSS.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -297,10 +302,14 @@ footer,
 }
 
 .project-4 {
-    background-image: url(./Assets/Screenshot\ 2024-01-09\ 200127.png);
+    background-image: url(./Assets/pexels-dominika-roseclay-1036848.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.portfolio {
+    width: 50%;
 }
 
 article p,
@@ -355,8 +364,6 @@ footer {
     .skills,
     .portfolio {
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
     }
 
     .skills {
@@ -368,6 +375,103 @@ footer {
         margin: 2rem auto;
         flex-wrap: wrap;
         justify-content: center;
+        width: 50%;
+    }
+
+    .wrapper {
+        flex: none;
+    }
+}
+
+@media screen and (max-width: 2000px) {
+
+    .skills,
+    .portfolio {
+        flex-direction: row;
+    }
+
+    .skills {
+        margin: 2rem auto 0;
+        justify-content: center;
+    }
+
+    .portfolio {
+        margin: 2rem auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .wrapper {
+        flex: none;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+
+    .skills,
+    .portfolio {
+        flex-direction: row;
+    }
+
+    .skills {
+        margin: 2rem auto 0;
+        justify-content: center;
+    }
+
+    .portfolio {
+        margin: 2rem auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .wrapper {
+        flex: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .skills,
+    .portfolio {
+        flex-direction: row;
+    }
+
+    .skills {
+        margin: 2rem auto 0;
+        justify-content: center;
+    }
+
+    .portfolio {
+        margin: 2rem auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .wrapper {
+        flex: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .skills,
+    .portfolio {
+        flex-direction: row;
+    }
+
+    .skills {
+        margin: 2rem auto 0;
+        justify-content: center;
+    }
+
+    .portfolio {
+        margin: 2rem auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
     }
 
     .wrapper {
