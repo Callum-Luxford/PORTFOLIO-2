@@ -268,7 +268,7 @@ footer,
 .project,
 .project-wrapper {
     width: 30rem;
-    height: 20rem;
+    height: 18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,7 +297,7 @@ footer,
 }
 
 .project-4 {
-    background-image: url(./Assets/pexels-moose-photos-1038000.jpg);
+    background-image: url(./Assets/Screenshot\ 2024-01-09\ 200127.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
