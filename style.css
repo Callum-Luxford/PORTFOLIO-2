@@ -309,7 +309,7 @@ footer,
 }
 
 .portfolio {
-    width: 50%;
+    width: 100%;
 }
 
 article p,
@@ -364,6 +364,7 @@ footer {
     .skills,
     .portfolio {
         flex-direction: row;
+        /* width: 45rem; */
     }
 
     .skills {
@@ -375,106 +376,17 @@ footer {
         margin: 2rem auto;
         flex-wrap: wrap;
         justify-content: center;
-        width: 50%;
     }
 
     .wrapper {
         flex: none;
     }
-}
-
-@media screen and (max-width: 2000px) {
-
-    .skills,
-    .portfolio {
-        flex-direction: row;
-    }
-
-    .skills {
-        margin: 2rem auto 0;
-        justify-content: center;
-    }
 
     .portfolio {
-        margin: 2rem auto;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 70%;
-    }
-
-    .wrapper {
-        flex: none;
-    }
-}
-
-@media screen and (max-width: 1420px) {
-
-    .skills,
-    .portfolio {
-        flex-direction: row;
-    }
-
-    .skills {
-        margin: 2rem auto 0;
-        justify-content: center;
-    }
-
-    .portfolio {
-        margin: 2rem auto;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 90%;
-    }
-
-    .wrapper {
-        flex: none;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-
-    .skills,
-    .portfolio {
-        flex-direction: row;
-    }
-
-    .skills {
-        margin: 2rem auto 0;
-        justify-content: center;
-    }
-
-    .portfolio {
-        margin: 2rem auto;
-        flex-wrap: wrap;
-        justify-content: center;
         width: 100%;
     }
-
-    .wrapper {
-        flex: none;
-    }
 }
 
-@media screen and (max-width: 1000px) {
-
-    .skills,
-    .portfolio {
-        flex-direction: row;
-    }
-
-    .skills {
-        margin: 2rem auto 0;
-        justify-content: center;
-    }
-
-    .portfolio {
-        margin: 2rem auto;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 95%;
-    }
-
-    .wrapper {
-        flex: none;
-    }
+@media (max-width: 480px) {
+    .portfolio {}
 }
